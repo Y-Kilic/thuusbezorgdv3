@@ -1,0 +1,9 @@
+Rider toevoegen
+dishes toevoegen
+
+INSERT INTO dish VALUES (1, 'dish1'), (2, 'dish2');
+INSERT INTO rider VALUES (1, 'rider1'), (2, 'rider2');
+
+Place Order draaien dan database aanpassen:
+
+INSERT INTO delivery VALUES(1, TRUE, 1, 2);
